@@ -1,5 +1,5 @@
 const {createStore, applyMiddleware} = require('redux')
-const {INCREMENT, DECREMENT} = require('./actions')
+const {INCREMENT, DECREMENT} = require('./types')
 const reducer = require('./reducer')
 const promiseMiddleware = require('redux-promise').default
 
